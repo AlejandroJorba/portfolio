@@ -12,8 +12,8 @@ export class HeaderComponent {
 
   descargarArchivo(){
     const link = document.createElement('a');
-    link.href = "/assets/cv.docx";
-    link.download = "CV_Alejandro_Jorba.docx";
+    link.href = "/assets/cv.pdf";
+    link.download = "CV_Alejandro_Jorba.pdf";
     link.click();
   }
 }
